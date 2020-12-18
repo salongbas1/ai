@@ -1,0 +1,164 @@
+.loading_wave {
+  text-align: center;
+}
+
+
+.container text-center {
+  margin-top: 50px;
+}
+
+.column-1 {
+  float: left;
+  width: 10%;
+  
+}
+
+.row {
+  display: flex;
+}
+
+label.s {
+  line-height: 200%;
+  float: left;
+  
+}
+
+.gg {
+  margin-left: -35.5%;
+}
+
+.hh {
+  margin-left: -41%;
+}
+
+.kk{
+  margin-left: -48%;
+}
+
+.cc {
+  margin-left: -23%;
+}
+
+.ee {
+  margin-left: -32%;
+}
+
+label.m {
+  line-height: 200%;
+  float: left;
+  
+}
+
+
+.column-2 {
+  float: left;
+  margin-left: 0%;
+  width: 32%;
+  line-height: 190%;
+  
+}
+.column-3 {
+  float: left;
+  width: 10%;
+}
+.column-4 {
+  float: left;
+  width: 27%;
+  line-height: 190%;
+}
+.column-5 {
+  float: left;
+  width: 13%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button1:hover {
+  background-color: #3e8e41
+}
+
+.button1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  padding: 100px;
+  width: 100%;
+  margin-top: 100px;
+  margin: auto;
+  opacity: 0.9;
+  
+  
+}
+
+.container {
+  background-image: url("https://www.thairath.co.th/media/dFQROr7oWzulq5FZXl3z9sI76mOQmu4KCK3AfWEeLnhWOsJSk3NrC4EwiG2dnmuR3xZ.jpg");
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
